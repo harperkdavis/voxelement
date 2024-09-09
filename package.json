@@ -2,6 +2,8 @@
   "name": "voxelement",
   "version": "0.0.0",
   "devDependencies": {
-    "concurrently": "^8.2.2"
-  }
+    "concurrently": "^8.2.2",
+    "dotenv-cli": "^7.4.2"
+  },
+  "dependencies": {}
 }
