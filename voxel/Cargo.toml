@@ -4,3 +4,13 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+anyhow = "1"
+cgmath = "0.18"
+png = "0.17"
+shaderc = "0.8"
+thiserror = "1"
+tobj = "4"
+tracing = "0.1"
+tracing-subscriber = { version =  "0.3", features = ["env-filter"] }
+vulkanalia = { version = "=0.25.0", features = ["libloading", "provisional", "window"] }
+winit = "0.29"
